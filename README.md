@@ -1,7 +1,7 @@
 BadgeView for Android
 =====================
 
-A extended TextView that mimics the iOS Springboard 'badges'. It can be overlaid on any other item.
+An extended TextView that mimics the iOS Springboard 'badges'. It can be overlaid on any other item.
 
 TODO:Screenshots
 
@@ -30,7 +30,7 @@ Developed By
 License
 -------
 
-    Copyright 2012 Jeremy Feinstein
+    Copyright 2013 Stefan Jauker
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
