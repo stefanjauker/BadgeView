@@ -3,7 +3,9 @@ BadgeView for Android
 
 An extended TextView that mimics the iOS Springboard 'badges'. It can be overlaid on any other item.
 
-TODO:Screenshots
+[Play Store Demo][1]
+
+
 
 Setup
 -----
@@ -11,16 +13,14 @@ Setup
 In Eclipse, just import the library as an Android library project. Project > Clean to generate the binaries you need, like R.java, etc.
 Then, just add BadgeView as a dependency to your existing project and you're good to go!
 
-How to Integrate
-----------------
-
-Comming soon ...
-
-
 Sample Code
 -----------
 
-Comming soon ...
+```java
+BadgeView badge = new BadgeView(getActivity());
+badge.setTargetView(myView);
+badge.setBadgeCount(42);
+```
 
 Developed By
 ------------
@@ -43,3 +43,5 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+[1]: https://play.google.com/store/apps/details?id=com.jauker.badgeview.example
