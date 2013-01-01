@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BadgeView Demo</string>
+    <string name="title_list">ListView</string>
+    <string name="title_views">Views</string>
+    <string name="title_activity_tab">BadgeView</string>
+
+</resources>

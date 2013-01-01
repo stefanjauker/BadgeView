@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BadgeActivity" >
+
+    <Button 
+        android:id="@+id/backgroundDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Background"/>
+    <Button 
+        android:id="@+id/backgroundShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shape Background"/>
+    <Button 
+        android:id="@+id/backgroundDrawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawable Background"/>
+    <Button 
+        android:id="@+id/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Style"/>
+    <Button 
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counter"/>
+    <Button 
+        android:id="@+id/gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Gravity"/>
+    <Button 
+        android:id="@+id/visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toogle Visibility"/>
+
+</LinearLayout>
