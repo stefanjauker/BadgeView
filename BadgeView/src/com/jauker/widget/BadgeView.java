@@ -219,6 +219,10 @@ public class BadgeView extends TextView {
             FrameLayout badgeContainer = new FrameLayout(getContext());
             ViewGroup.LayoutParams parentlayoutParams = target.getLayoutParams();
 
+            badgeContainer.setLayoutParams(parentLayoutParams);
+            target.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+
             parentContainer.addView(badgeContainer, groupIndex, parentlayoutParams);
             badgeContainer.addView(target);
 
