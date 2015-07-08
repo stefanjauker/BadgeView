@@ -217,7 +217,7 @@ public class BadgeView extends TextView {
             parentContainer.removeView(target);
 
             FrameLayout badgeContainer = new FrameLayout(getContext());
-            ViewGroup.LayoutParams parentlayoutParams = target.getLayoutParams();
+            ViewGroup.LayoutParams parentLayoutParams = target.getLayoutParams();
 
             badgeContainer.setLayoutParams(parentLayoutParams);
             target.setLayoutParams(new ViewGroup.LayoutParams(
