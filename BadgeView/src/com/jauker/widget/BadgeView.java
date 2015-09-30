@@ -81,7 +81,6 @@ public class BadgeView extends TextView {
         setBadgeCount(0);
     }
 
-    @SuppressWarnings("deprecation")
     public void setBackground(int dipRadius, int badgeColor) {
         int radius = dip2Px(dipRadius);
         float[] radiusArray = new float[] { radius, radius, radius, radius, radius, radius, radius, radius };
@@ -89,7 +88,7 @@ public class BadgeView extends TextView {
         RoundRectShape roundRect = new RoundRectShape(radiusArray, null, null);
         ShapeDrawable bgDrawable = new ShapeDrawable(roundRect);
         bgDrawable.getPaint().setColor(badgeColor);
-        setBackgroundDrawable(bgDrawable);
+        setBackground(bgDrawable);
     }
 
     /**
